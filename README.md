@@ -6,15 +6,31 @@ Moreover, Hoa aims at being a bridge between industrial and research worlds.
 # Contributions/Zsh/Hoa
 
 This repository contains tools for
-[`Hoa\Cli`](http://central.hoa-project.net/Resource/Library/Cli) support in Zsh.
+[`Hoa\Cli`](http://central.hoa-project.net/Resource/Library/Cli) support in Zsh,
+mainly the autocompletion of the `hoa` command.
 
 ## Installation
 
-…
+With [Antigen](http://antigen.sharats.me/), to include this plugin your Zsh
+plugins, you need to require `hoaproject/Contributions-Zsh-Hoa` (in your plugin
+list file):
+
+```sh
+antigen bundle hoaproject/Contributions-Zsh-Hoa
+```
+
+Then:
+
+```sh
+antigen apply
+```
 
 ## Quick usage
 
-…
+Just ask autocompletion on the `hoa` command and you will see all available
+sub-commands:
+
+![Autocompletion](http://central.hoa-project.net/Resource/Contributions/Zsh/Hoa/Documentation/Image/Autocompletion.gif?format=raw)
 
 ## Documentation
 
